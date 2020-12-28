@@ -102,3 +102,74 @@ desktopContactBtn.addEventListener("click", () => {
     window.scrollTo(0, 0);
   }
 });
+
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-feature-container-v1 !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-feature-container-v1 !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-feature-container-v1 !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-feature-container-v1 !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-feature-container-v1 !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-feature-container-v1 !!!!!!!!!!!!!!!
+
+var myFirstSwiper = new Swiper(".gallery-feature-container-v1", {
+  speed: 400,
+  slidesPerView: 1.3,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2.2,
+    },
+    992: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-light-v1 !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-light-v1 !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-light-v1 !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-light-v1 !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-light-v1 !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-light-v1 !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR gallery-light-v1 !!!!!!!!!!!!!!!
+
+var myAboutPageSwiper = new Swiper(".gallery-light-v1-container", {
+  speed: 400,
+  slidesPerView: 1.2,
+  spaceBetween: 20,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    400: {
+      slidesPerView: 1.5,
+    },
+    450: {
+      slidesPerView: 1.5,
+    },
+    500: {
+      slidesPerView: 1.8,
+    },
+    700: {
+      slidesPerView: 2.2,
+    },
+    1000: {
+      slidesPerView: 3,
+    },
+    1200: {
+      slidesPerView: 4,
+    },
+  },
+});
